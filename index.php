@@ -87,7 +87,7 @@ $agent->setUploadUsage(105);*/
 <body>
 
 <div class="container">
-
+    <form method="POST">
     <table class="table">
         <caption>Bandwidth calculator</caption>
         <thead>
@@ -101,7 +101,7 @@ $agent->setUploadUsage(105);*/
         </tr>
         </thead>
 
-        <form method="POST">
+
             <tbody>
             <tr>
                 <td>Closer</td>
@@ -149,9 +149,10 @@ $agent->setUploadUsage(105);*/
 
             </tr>
             </tbody>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+
     </table>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 
 
     <div class="col-md"> Download:
